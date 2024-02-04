@@ -40,18 +40,17 @@ A aplicação consiste em uma página que exibe uma lista paginada de filmes e o
 
 ## Tecnologias e ferramentas utilizadas
 - Java
-- Spring
+- Spring boot
 - HTML
 - CSS
-- JS
+- JavaScript
 - TypeScript
 - ReactJS
 - Bootstrap
 - Maven
-- Postgresql
+- PostgreSQL
 - H2
 - PgAdmin
-- Flyway
 - Git / GitHub
 
 ## Como executar o projeto
