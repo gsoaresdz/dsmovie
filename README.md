@@ -5,7 +5,7 @@ DSMovie é uma aplicação web responsiva, desenvolvida com Java e Spring no bac
 
 A aplicação consiste em uma página que exibe uma lista paginada de filmes e outra página que contém um formulário para a avaliação de um filme. Na lista paginada, cada filme apresenta uma nota de avaliação, calculada pela média das notas atribuídas pelos usuários. Já na página de avaliação, há campos para que o usuário informe seu e-mail e a nota que deseja atribuir ao filme selecionado.
 
-## Layout web
+## Layout
 ![1](https://github.com/gsoaresdz/dsmovie/assets/69989654/9bb33d3c-cb56-4b0d-a226-351ace8590ad)
 
 ![Avaliação](https://github.com/gsoaresdz/dsmovie/assets/69989654/49b1d818-604b-47f0-9761-d4653c4c129c)
@@ -61,7 +61,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/dennisferreira1/projeto-dsmovie
+git clone https://github.com/gsoaresdz/dsmovie
 
 # entrar na pasta do projeto back end
 cd backend
