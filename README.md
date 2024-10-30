@@ -5,32 +5,32 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/dsmovie?color=56BEB8">
 </p>
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-recursos">Recursos</a> &#xa0; | &#xa0;
-  <a href="#rocket-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-competências--técnicas">Competências / Técnicas</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies-and-tools">Technologies and Tools</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-skills--techniques">Skills / Techniques</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execution">Execution</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Author</a>
 </p>
 <br>
 
-## **:dart: Sobre**
+## **:dart: About**
 
-DSMovie é uma aplicação web responsiva, desenvolvida com Java e Spring no backend e React no frontend. O aplicativo foi desenvolvido durante o evento 'Semana Spring React', promovido pela DevSuperior - Escola de Programação.
+DSMovie is a responsive web application developed with Java and Spring on the backend and React on the frontend. The application was developed during the "Spring React Week" event, organized by DevSuperior - School of Programming.
 
-A aplicação consiste em uma página que exibe uma lista paginada de filmes e outra página que contém um formulário para a avaliação de um filme. Na lista paginada, cada filme apresenta uma nota de avaliação, calculada pela média das notas atribuídas pelos usuários. Já na página de avaliação, há campos para que o usuário informe seu e-mail e a nota que deseja atribuir ao filme selecionado.
+The application consists of a page that displays a paginated list of movies and another page containing a form for rating a movie. In the paginated list, each movie displays a rating score, calculated by averaging the scores assigned by users. On the rating page, users can enter their email and the rating they want to give to the selected movie.
 
-## **:sparkles: Recursos**
+## **:sparkles: Features**
 
-:heavy_check_mark: **Recurso 1**: Listar filmes.
+:heavy_check_mark: **Feature 1**: List movies.
 
-:heavy_check_mark: **Recurso 2**: Avaliar filme.
+:heavy_check_mark: **Feature 2**: Rate movies.
 
-## **:rocket: Tecnologias e Ferramentas**
+## **:rocket: Technologies and Tools**
 
-As seguintes tecnologias e ferramentas foram usadas neste projeto:
+The following technologies and tools were used in this project:
 
 - **Backend**
     - Java
@@ -45,81 +45,79 @@ As seguintes tecnologias e ferramentas foram usadas neste projeto:
     - TypeScript
     - ReactJS
     - Bootstrap
-- **Ferramentas de Desenvolvimento**
+- **Development Tools**
     - PgAdmin
     - Git / GitHub
 
-## **:white_check_mark: Competências / Técnicas**
+## **:white_check_mark: Skills / Techniques**
 
 ### Backend
 
-- Criar e configurar o projeto com Spring
-- Configurar o banco de dados
-- Mapeamento ORM
-- Desenvolvimento em camadas
+- Create and configure the project with Spring
+- Database configuration
+- ORM mapping
+- Layered development
 - REST API
-- Configurar perfis de projeto
+- Project profile configuration
 
 ### Frontend
 
-- Criar e configurar o projeto com React
-- Componentes
+- Create and configure the project with React
+- Components
 - Props
-- Estado
-- Rotas
-- Navegação
+- State
+- Routes
+- Navigation
 
-### Integração frontend e backend
+### Frontend and Backend Integration
 
 - Axios
 
-## **:white_check_mark: Requerimentos**
+## **:white_check_mark: Requirements**
 
-Antes de iniciar :checkered_flag:, você precisa ter [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) e [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) instalados.
+Before starting :checkered_flag:, you need to have [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) installed.
 
-## **:checkered_flag: Execução**
+## **:checkered_flag: Execution**
 
-### Back end
+### Backend
 
 ```bash
-# Clone do repositório
+# Clone the repository
 $ git clone https://github.com/gsoaresdz/dsmovie.git
 
-# Entre na pasta do projeto back end
+# Enter the backend project folder
 $ cd backend
 
-# Execute o projeto
+# Run the project
 $ ./mvnw spring-boot:run
 ```
 
-### Front end web
+### Frontend Web
 
 ```bash
-# Clone do repositório
+# Clone the repository
 $ git clone https://github.com/gsoaresdz/dsmovie.git
 
-# Entre na pasta do projeto front end web
+# Enter the frontend web project folder
 $ cd frontend
 
-# Instale as dependências
+# Install dependencies
 $ yarn install
-# ou
+# or
 $ npm install
 
-# Execute o projeto
+# Run the project
 $ yarn start
-# ou
+# or
 $ npm start
 ```
 
-A aplicação será aberta automaticamente no navegador padrão.
+The application will automatically open in the default browser.
 
-## **:memo: Licença**
+## **:memo: License**
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is under the MIT license. For more details, see the [LICENSE](LICENSE) file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-&#xa0;
-
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
